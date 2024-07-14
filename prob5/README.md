@@ -58,4 +58,45 @@ npm start
 ```
 
 
+### Usage
 
+Test API
+
+#### 1. Create a book
+
+- **Endpoint**: [text](http://localhost:4000/api/v1/books)
+- **Method**: POST
+- **Body**:
+    ```json
+    {
+        "name": "",
+        "author": "",
+        "category": "",
+        "content": "",
+    }
+    ```
+
+#### 2. Get book list with basicfilter
+
+- **Endpoint**: [text](http://localhost:4000/api/v1/books?category=author=)
+- **Method**: GET
+
+#### 3. Get book detail
+
+- **Endpoint**: [text](http://localhost:4000/api/v1/books/:id)
+- **Method**: GET
+
+#### 4. Update book detail
+
+- **Endpoint**: [text](http://localhost:4000/api/v1/books/:id)
+- **Method**: PUT
+- **Body**:
+    ```json
+    {
+        "name": ""
+    }
+    ```
+#### 5. Delete a book
+
+- **Endpoint**: [text](http://localhost:4000/api/v1/books/:id)
+- **Method**: DELETE
