@@ -45,7 +45,7 @@ This module serves as the backend API service for a score board on a website. It
 - **API Integration**: Dispatch API calls to update scores upon completion of the action.
 
 - **Authorization**: Implement authorization checks to prevent unauthorized score updates.
-
+ 
 
 ## Additional Comments for Improvement
 
