@@ -36,15 +36,15 @@ This module serves as the backend API service for a score board on a website. It
 
 ## Software Requirements
 
-### 1. **Score Board Display**: Display the top 10 user scores on a website.
+- 1. **Score Board Display**: Display the top 10 user scores on a website.
 
-### 2. **Real-Time Updates**: Implement real-time updates of the score board.
+- 2. **Real-Time Updates**: Implement real-time updates of the score board.
 
-### 3. **Score Increment Action**: Perform an unspecified action that increases a user's score.
+- 3. **Score Increment Action**: Perform an unspecified action that increases a user's score.
 
-### 4. **API Integration**: Dispatch API calls to update scores upon completion of the action.
+- 4. **API Integration**: Dispatch API calls to update scores upon completion of the action.
 
-### 5. **Authorization**: Implement authorization checks to prevent unauthorized score updates.
+- 5. **Authorization**: Implement authorization checks to prevent unauthorized score updates.
 
 
 ## Additional Comments for Improvement
