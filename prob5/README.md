@@ -96,6 +96,7 @@ Test API
         "name": ""
     }
     ```
+
 #### 5. Delete a book
 
 - **Endpoint**: [text](http://localhost:4000/api/v1/books/:id)
